@@ -1,7 +1,9 @@
-export default function Home(){
-    return(
-        <>
-        หน้าแรก
-        </>
+import React, { useState, useEffect } from 'react';
+
+export default function Home() {
+    return (
+        <div>
+            
+        </div>
     )
 }
