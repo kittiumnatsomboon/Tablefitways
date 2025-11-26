@@ -24,7 +24,7 @@ export default function Navbar() {
                     {/* Mobile Menu Button */}
                     <button
                         className="md:hidden"
-                        onClick={() => setIsModalOpen(!isModalOpen)}
+                        onClick={toggleContent}
                     >
                         {isModalOpen ? <X size={28} /> : <Menu size={28} />}
                     </button>
