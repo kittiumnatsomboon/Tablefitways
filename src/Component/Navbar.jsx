@@ -14,11 +14,11 @@ export default function Navbar() {
 
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-6">
-                        <li><a href="#" className="hover:text-gray-300">หน้าแรก</a></li>
-                        <li><a href="#" className="hover:text-gray-300">เกี่ยวกับเรา</a></li>
-                        <li><a href="#" className="hover:text-gray-300">ติดต่อเรา</a></li>
-                        <li><a href="#" className="hover:text-gray-300">สมัครสมาชิก</a></li>
-                        <li><a href="#" className="hover:text-gray-300">เข้าสู่ระบบ</a></li>
+                        <li><a href="/" className="hover:text-gray-300">หน้าแรก</a></li>
+                        <li><a href="/Aboute" className="hover:text-gray-300">เกี่ยวกับเรา</a></li>
+                        <li><a href="/Contact" className="hover:text-gray-300">ติดต่อเรา</a></li>
+                        <li><a href="/Register" className="hover:text-gray-300">สมัครสมาชิก</a></li>
+                        <li><a href="/Login" className="hover:text-gray-300">เข้าสู่ระบบ</a></li>
                     </ul>
 
                     {/* Mobile Menu Button */}
@@ -34,10 +34,10 @@ export default function Navbar() {
                 {isModalOpen && (
                     <ul className="md:hidden bg-gray-800 px-4 pb-4 space-y-2">
                         <li><a href="#" className="block py-2">หน้าแรก</a></li>
-                        <li><a href="#" className="block py-2">เกี่ยวกับเรา</a></li>
-                        <li><a href="#" className="block py-2">ติดต่อเรา</a></li>
-                        <li><a href="#" className="block py-2">สมัครสมาชิก</a></li>
-                        <li><a href="#" className="block py-2">เข้าสู่ระบบ</a></li>
+                        <li><a href="/Aboute" className="block py-2">เกี่ยวกับเรา</a></li>
+                        <li><a href="/Contact" className="block py-2">ติดต่อเรา</a></li>
+                        <li><a href="/Register" className="block py-2">สมัครสมาชิก</a></li>
+                        <li><a href="/Login" className="block py-2">เข้าสู่ระบบ</a></li>
                     </ul>
                 )}
             </nav>
